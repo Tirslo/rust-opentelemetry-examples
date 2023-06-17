@@ -19,7 +19,7 @@ fn init_tracer() -> Result<trace::Tracer, TraceError> {
         .with_exporter(
             opentelemetry_otlp::new_exporter()
                 .tonic()
-                .with_endpoint("http://192.168.0.159:4317"),
+                .with_endpoint("http://localhost:4317"),
         )
         .with_trace_config(
             trace::config().with_resource(Resource::new(vec![KeyValue::new(
