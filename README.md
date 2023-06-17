@@ -19,7 +19,7 @@
     - Export tracers using OTLP to Jaegar with Tonic
 - rust-otlp-actix-tracing
     - Tracing with Tracing API + actix-web-opentelemetry
-    - v0.18.0 of OpenTelemetry to support actix-web-opentelemetry
+    - v0.18.0 of tracing to support actix-web-opentelemetry
     - Export tracers using OTLP to Jaegar with Tonic
 - rust-otlp-newrelic
     - Tracing with the standard OpenTelemetry library
