@@ -1,0 +1,17 @@
+[package]
+name = "rust-otlp-actix"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = { version= "4.3.1", features = ["macros"]} 
+actix-rt = "2.8.0"
+actix-web-opentelemetry = { version = "0.13" }
+opentelemetry = { version = "0.18.0",default-features = false, features = [ "trace", "rt-tokio"] }
+opentelemetry-otlp = { version="0.11.0",  features = ["tonic", "metrics"] }
+opentelemetry-semantic-conventions = { version="0.10.0" }
+tokio = { version = "1.0", features = ["full"] }
+openssl = { version = "0.10", features = ["vendored"] }
+rand = "0.8.5"

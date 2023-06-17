@@ -20,7 +20,7 @@ fn init_tracer() -> Result<trace::Tracer, TraceError> {
         .with_trace_config(
             trace::config().with_resource(Resource::new(vec![KeyValue::new(
                 opentelemetry_semantic_conventions::resource::SERVICE_NAME,
-                "rust-otel-tracing",
+                "rust-otlp-tracing",
             )])),
         )
         .install_batch(runtime::Tokio)

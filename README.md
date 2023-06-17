@@ -13,6 +13,10 @@
     - Tracing with Tracing API
     - Creates traces using Tracing API Macros
     - Export traces using OTLP to Jaegar with Tonic
+- rust-otlp-actix
+    -
+    -
+    -
 - rust-otlp-newrelic
     - Tracing with the standard Opentelemetry library
     - Export tracers using OTLP to New Relic with http and reqwest
@@ -20,3 +24,7 @@
     - Tracing with Tracing API
     - Creates traces using Tracing API Macros
     - Export traces using OTLP to New Relic with http and reqwest
+- rust-otlp-actix-newrelic
+    -  
+    -
+    -
