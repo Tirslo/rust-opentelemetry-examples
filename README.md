@@ -4,6 +4,7 @@
  - Simple examples to get started with Rust and OpenTelemetry. 
  - Projects use the core opentelemetry libraries and Tokio Tracing API 
  - Each example is using the latest available dependencies. [17/06/2023] 
+ - Using [Jaeger](https://www.jaegertracing.io/docs/1.46/getting-started/) all in one for most examples.
  - For the New Relic examples [Sign Up](https://newrelic.com/signup) to a free developer account and [copy your license key](https://one.newrelic.com/api-keys)
 
 ## Examples
